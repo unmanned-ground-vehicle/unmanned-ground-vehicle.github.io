@@ -1,2 +1,2 @@
 # unmanned-ground-vehicle.github.io
-UGV Website
+The official website of Unmanned Ground Vehicle, DTU
