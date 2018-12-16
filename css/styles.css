@@ -1,0 +1,49 @@
+/*************************GLOBAL STYLING*******************************/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/************************HEADER**************************************/
+#navbar_custom {
+    background: none;
+}
+
+.hero_text {
+    background: #ccc;
+    height: 100vh;
+}
+.data_heading, .data_body{
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/************************HEADER END***********************************/
+
+/***********************MAIN********************************************/
+.about_us {
+    height: 100vh;
+    background: #1f7e7c;
+}
+
+.team_members {
+    height: 100vh;
+    background: #717171;
+}
+
+.progress {
+    height: 100vh;
+    background: #818181;
+}
+
+.past_sponsors {
+    height: 100vh;
+    background: #000;
+}
+/**********************MAIN END***************************************/
+
+/**********************FOOTER*******************************************/
+
+/**********************FOOTER END****************************************/
