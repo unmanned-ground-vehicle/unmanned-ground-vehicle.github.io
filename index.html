@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" type="text/css" media="screen" href="libs/bootstrap/css/bootstrap.min.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="libs/bootstrap/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="libs/bootstrap/css/bootstrap-reboot.min.css" />
+
+    <!-- OPEN SANS FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+
+    <!-- LATO FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css">
 </head>
+
 <body>
-Unmanned Ground Vehicle
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar_custom">
+            <a class="navbar-brand" href="#">UGV</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto"id= "navbar_text">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutUsSection">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teamMembersSection">Team Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#progressSection">Progress of Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pastSponsorsSection">Past Sponsors</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="hero_text">
+            <div class="hero_heading">
+                Welcome to UGV
+            </div>
+
+            <div class="hero_body">
+                The Unmanned Ground Vehicle
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="about_us" id="aboutUsSection">
+            <h1 class="heading_general">Who are we</h1>
+        </section>
+
+        <section class="team_members" id="teamMembersSection">
+            <h1 class="heading_general">Who constitute us</h1>
+        </section>
+
+        <section class="progress_current" id="progressSection">
+            <h1 class="heading_general">What are we doing</h1>
+        </section>
+
+        <section class="past_sponsors" id="pastSponsorsSection">
+            <h1 class="heading_general">Who sponsored us</h1>
+        </section>
+    </main>
+
+    <footer>
+        <h6>Made with Love by UGV Team</h6>
+    </footer>
+    <!-- JQUERY -->
+    <script src="js/vendor/jquery-3.3.1.min.js"></script>
     <!-- BOOTSTRAP JS -->
-<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- CUSTOM SCRIPT -->
+    <script src="js/script.js"></script>
 </body>
+
 </html>

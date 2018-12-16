@@ -1,0 +1,94 @@
+/*************************GLOBAL STYLING*******************************/
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+
+.heading_general {
+    font-family: 'Lato', sans-serif;
+    padding-top: 4%;
+    color: #fff;
+    text-align: center;
+    font-size: 300%;
+    font-weight: 300;
+}
+
+/************************HEADER**************************************/
+#navbar_custom {
+    background: #000;
+}
+
+#navbar_text a {
+    height: 100%;
+    color: rgb(173, 173, 173);
+    transition: color 0.3s;
+}
+
+#navbar_text a:hover {
+    color: #fff;
+}
+
+.hero_text {
+    background: #232526;
+    height: 100vh;
+}
+
+.hero_heading,
+.hero_body {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero_heading {
+    font-size: 350%;
+    color: #fff;
+}
+
+.hero_body {
+    font-size: 120%;
+    color: #fff;
+}
+
+/************************HEADER END***********************************/
+
+/***********************MAIN********************************************/
+.about_us {
+    height: 100vh;
+    background: #1f7e7c;
+}
+
+.team_members {
+    height: 100vh;
+    background: #717171;
+}
+
+.progress_current {
+    height: 100vh;
+    background: #818181;
+}
+
+.past_sponsors {
+    height: 100vh;
+    background: rgb(58, 0, 0);
+}
+
+/**********************MAIN END***************************************/
+
+/**********************FOOTER*******************************************/
+footer {
+    background: #232526;
+    height: 10%;
+}
+
+footer h6 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top:50%;
+    transform: translate(0, -50%);
+}
+
+/**********************FOOTER END****************************************/
