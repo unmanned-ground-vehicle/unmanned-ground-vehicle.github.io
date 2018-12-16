@@ -2,22 +2,44 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 /************************HEADER**************************************/
 #navbar_custom {
-    background: none;
+    background: #000;
+}
+
+#navbar_text a {
+    height: 100%;
+    color: rgb(173, 173, 173);
+    transition: color 0.3s;
+}
+
+#navbar_text a:hover {
+    color: #fff;
 }
 
 .hero_text {
-    background: #ccc;
+    background: #232526;
     height: 100vh;
 }
-.data_heading, .data_body{
+
+.hero_heading,
+.hero_body {
     text-align: center;
-    font-weight: bold;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.hero_heading {
+    font-size: 350%;
+    color: #fff;
+}
+
+.hero_body {
+    font-size: 120%;
+    color: #fff;
 }
 
 /************************HEADER END***********************************/
@@ -42,6 +64,7 @@ body {
     height: 100vh;
     background: #000;
 }
+
 /**********************MAIN END***************************************/
 
 /**********************FOOTER*******************************************/
